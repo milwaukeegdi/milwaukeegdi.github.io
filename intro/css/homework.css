@@ -1,0 +1,83 @@
+body {
+	background-color: #f05b62;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container {
+	width: 75%;
+	margin: auto auto;
+	padding: 5%;
+	background-color: rgba(255,255,255,.7);
+	border-radius: 20px;
+	min-height: 600px;
+}
+
+li {
+	font-size: 120%;
+}
+
+.gdi-logo{
+	float: left;
+	width: 140px;
+	padding: 20px;
+}
+
+.bill {
+	margin: auto auto;
+	display: block;
+	width: 400px;
+	border: 3px solid black;
+	border-radius: 20px;
+}
+
+h1 {
+	color: #f05b62;
+}
+
+h2 {
+	color: #f05b62;
+}
+
+header {
+	clear: both;
+	margin-bottom: 2em;
+}
+
+.lists{
+	clear: both;
+	margin: auto auto;
+}
+
+.column{
+	width: 25%;
+	min-height: 400px;
+	float: left;
+}
+
+li {
+	padding-top: .2em;
+	padding-bottom: .1em;
+}
+
+a:link {
+ 	color: #22867F;
+ 	text-decoration: none;
+ 	border-bottom: 1px solid #22867F;
+}
+
+a:visited {
+	color: #22867F;
+}
+
+a:hover {
+	color: #F05B62;
+	border-bottom: 1px dashed #F05B62;
+}
+
+a:active {
+	color: #ffffff;
+}
+
+footer{
+	text-align: center;
+}
