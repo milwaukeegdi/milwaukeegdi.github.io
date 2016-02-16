@@ -1,5 +1,5 @@
 body {
-	background-color: #f05b62;
+	background-color: #333333;
 	font-family: 'PT Sans Narrow', sans-serif;
 }
 
@@ -31,11 +31,11 @@ li {
 }
 
 h1 {
-	color: #f05b62;
+	color: #a05258;
 }
 
 h2 {
-	color: #f05b62;
+	color: #a05258;
 }
 
 header {
@@ -60,18 +60,18 @@ li {
 }
 
 a:link {
- 	color: #22867F;
+ 	color: #2a4758;
  	text-decoration: none;
- 	border-bottom: 1px solid #22867F;
+ 	border-bottom: 1px solid #2a4758;
 }
 
 a:visited {
-	color: #22867F;
+	color: #2a4758;
 }
 
 a:hover {
-	color: #F05B62;
-	border-bottom: 1px dashed #F05B62;
+	color: #a05258;
+	border-bottom: 1px dashed #a05258;
 }
 
 a:active {
