@@ -47,3 +47,9 @@
 	top: 50px;
 	left: 75px;
 }
+
+
+/*** Class 3 ****/
+.reveal div.indent {
+	padding-left: 50px;
+}
