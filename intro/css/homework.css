@@ -1,41 +1,31 @@
 body {
-	background-color: #333333;
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'Arial', sans-serif;
+	color: #2a4758;
+	background: #ffffff;
 }
 
-.container {
-	width: 75%;
+h1 {}
+h2 {}
+
+a:link {
+ 	color: #a05258;
+}
+
+a:visited {
+	color: #f05b62;
+}
+
+a:hover {
+	color: #f05b62;
+}
+
+a:active {
+	color: #ffffff;
+}
+
+main {
 	margin: auto auto;
 	padding: 5%;
-	background-color: rgba(255,255,255,.7);
-	border-radius: 20px;
-	min-height: 600px;
-}
-
-li {
-	font-size: 120%;
-}
-
-.gdi-logo{
-	float: left;
-	width: 140px;
-	padding: 20px;
-}
-
-.bill {
-	margin: auto auto;
-	display: block;
-	width: 400px;
-	border: 3px solid black;
-	border-radius: 20px;
-}
-
-h1 {
-	color: #a05258;
-}
-
-h2 {
-	color: #a05258;
 }
 
 header {
@@ -43,41 +33,49 @@ header {
 	margin-bottom: 2em;
 }
 
-.lists{
+header .logo{
+	display: block;
+	margin: 0 auto;
+}
+
+header h1 {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+section {
 	clear: both;
 	margin: auto auto;
 }
 
-.column{
+.col{
 	width: 25%;
 	min-height: 400px;
 	float: left;
 }
 
+.col h4 {
+	text-align: center;
+	margin: 0 5px;
+	background: #e4e9e5;
+	padding: 15px 0px;
+}
+
 li {
+	font-size: 15px;
 	padding-top: .2em;
 	padding-bottom: .1em;
 }
 
-a:link {
- 	color: #2a4758;
- 	text-decoration: none;
- 	border-bottom: 1px solid #2a4758;
-}
-
-a:visited {
-	color: #2a4758;
-}
-
-a:hover {
-	color: #a05258;
-	border-bottom: 1px dashed #a05258;
-}
-
-a:active {
-	color: #ffffff;
-}
-
 footer{
 	text-align: center;
+}
+
+/** Homework **/
+.bill {
+	margin: auto auto;
+	display: block;
+	width: 400px;
+	border: 3px solid black;
+	border-radius: 20px;
 }
