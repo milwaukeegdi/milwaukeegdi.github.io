@@ -47,8 +47,8 @@ header h1 {
 section {
 	clear: both;
 	margin: 0 auto;
-	min-height: 600px;
-	width: 400px;
+	min-height: 400px;
+	max-width: 400px;
 }
 
 .col-1 {
@@ -72,6 +72,8 @@ section {
 	vertical-align: middle;
 	margin: 0;
 	padding: 0 5px;
+	font-size: 18px;
+    font-weight: normal;
 }
 
 .col-1 li {

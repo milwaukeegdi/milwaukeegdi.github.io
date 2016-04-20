@@ -26,6 +26,7 @@ a:active {
 main {
 	margin: auto auto;
 	padding:0 5%;
+	max-width: 965px;
 }
 
 header {
@@ -46,7 +47,7 @@ header h1 {
 section {
 	clear: both;
 	margin: auto auto;
-	min-height: 600px;
+	min-height: 400px;
 }
 
 .col-3 {
@@ -71,6 +72,8 @@ section {
 	vertical-align: middle;
 	margin: 0;
 	padding: 0 5px;
+	font-size: 16px;
+	font-weight: normal;
 }
 
 .col-3 li {
