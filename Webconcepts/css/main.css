@@ -1,5 +1,5 @@
 body {
-	font-family: 'Arial', sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
 	color: #2a4758;
 	background: #ffffff;
 }
@@ -25,7 +25,8 @@ a:active {
 
 main {
 	margin: auto auto;
-	padding: 5%;
+	padding:0 5%;
+	/* min-width: 400px; */
 }
 
 header {
@@ -45,23 +46,35 @@ header h1 {
 
 section {
 	clear: both;
-	margin: auto auto;
+	margin: 0 auto;
+	min-height: 600px;
+	width: 400px;
 }
 
-.col{
-	width: 25%;
-	min-height: 400px;
+.col-1 {
+	width: 95%;
 	float: left;
 }
 
-.col h4 {
+.col-1 .title {
 	text-align: center;
 	margin: 0 5px;
 	background: #e4e9e5;
 	padding: 15px 0px;
 }
 
-li {
+.col-1 .title img {
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+.col-1 .title h4 {
+	vertical-align: middle;
+	margin: 0;
+	padding: 0 5px;
+}
+
+.col-1 li {
 	font-size: 15px;
 	padding-top: .2em;
 	padding-bottom: .1em;
@@ -71,11 +84,16 @@ footer{
 	text-align: center;
 }
 
-/** Homework **/
-.bill {
-	margin: auto auto;
-	display: block;
-	width: 400px;
-	border: 3px solid black;
-	border-radius: 20px;
+
+@media (max-width: 845px) {
+	section {
+		/* width:95%; */
+	}
+
+  .col-1 {
+    width: 97%;
+  }
+	.col-1 .title {
+		min-height: 18px;
+	}
 }
