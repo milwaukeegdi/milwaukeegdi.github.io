@@ -1,0 +1,105 @@
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #2a4758;
+	background: #ffffff;
+}
+
+h1 {}
+h2 {}
+
+a:link {
+ 	color: #a05258;
+}
+
+a:visited {
+	color: #f05b62;
+}
+
+a:hover {
+	color: #f05b62;
+}
+
+a:active {
+	color: #ffffff;
+}
+
+main {
+	margin: auto auto;
+	padding:0 5%;
+	max-width: 965px;
+}
+
+header {
+	clear: both;
+	margin-bottom: 2em;
+}
+
+header .logo{
+	display: block;
+	margin: 0 auto;
+}
+
+header h1 {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+section {
+	clear: both;
+	margin: auto auto;
+	min-height: 400px;
+}
+
+.col-3 {
+	width: 25%;
+	float: left;
+}
+
+.col-3 .title {
+	text-align: center;
+	margin: 0 5px;
+	background: #e4e9e5;
+	padding: 15px 0px;
+	min-height: 38px;
+}
+
+.col-3 .title img {
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+.col-3 .title h4 {
+	vertical-align: middle;
+	margin: 0;
+	padding: 0 5px;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.col-3 li {
+	font-size: 15px;
+	padding-top: .2em;
+	padding-bottom: .1em;
+}
+
+footer{
+	text-align: center;
+}
+
+/** Homework **/
+.bill {
+	margin: auto auto;
+	display: block;
+	width: 400px;
+	border: 3px solid black;
+	border-radius: 20px;
+}
+
+@media (max-width: 745px) {
+  .col-3 {
+    width: 97%;
+  }
+	.col-3 .title {
+		min-height: 18px;
+	}
+}
